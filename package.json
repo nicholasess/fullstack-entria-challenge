@@ -1,0 +1,30 @@
+{
+  "name": "fullstack",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "relay": "relay-compiler --src ./src --schema data/schema.graphql",
+    "relay:watch": "yarn relay --watch",
+    "get-schema": "node scripts/getSchema.js"
+  },
+  "dependencies": {
+    "graphql": "^0.13.2",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-relay": "^1.6.0",
+    "relay": "^0.8.0-1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-plugin-relay": "^1.6.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.2.0",
+    "react-test-renderer": "16.3.1",
+    "relay-compiler": "^1.6.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
