@@ -4538,9 +4538,10 @@ relay-runtime@1.6.0:
     babel-runtime "^6.23.0"
     fbjs "^0.8.14"
 
-relay@^0.8.0-1:
-  version "0.8.0-1"
-  resolved "https://registry.yarnpkg.com/relay/-/relay-0.8.0-1.tgz#f2b632ea1be64bbe706c9351a99b27320ee89e07"
+relay@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/relay/-/relay-0.8.0.tgz#bf07a2cb0a585d50adbc7f255131d95fb8907a6f"
+  integrity sha1-vweiywpYXVCtvH8lUTHZX7iQem8=
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
